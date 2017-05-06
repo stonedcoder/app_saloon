@@ -1,15 +1,16 @@
-﻿namespace Truudus
+namespace Truudus
 {
     class Constants
     {
         #region bases
-        private const string baseUrl                = "<replace with actual value from environment variables TPATH>";
+        private const string baseUrl                = "http://localhost:80/";        
+        private const string baseTwo                = "http://localhost:80";
         private const string geobase                = "https://maps.googleapis.com/maps/api/geocode/json?latlng={0},{1}&key=";
 
-        private const string privateKey             = "<replace with actual value from environment variables TPRIVKEY>";
-        private const string publicKey              = "<replace with actual value from environment variables TPUBKEY>";
+        private const string privateKey             = "h8mDq5YIF1SWNHkArGmw";
+        private const string publicKey              = "rQ9P5YLnqt8JEmarbyoo";
 
-        private const string apiKey                 = "<replace with actual value from environment variables APIKEY>";
+        private const string apiKey                 = "AIzaSyBu5-1WPBPeyqEPCdG7EBnAxJR4n8HqiGM";
         private const int otplim                    = 6;
         #endregion
 
@@ -24,6 +25,8 @@
         private const string verif                  = baseUrl + "verify";
         private const string upuser                 = baseUrl + "updateUserPassword";
         private const string updsal                 = baseUrl + "updateSalonPassword";
+        private const string upload                 = baseUrl + "upload";
+        private const string imghelp                = baseTwo;
 
         internal const string SALREG                = salreg;
         internal const string SALCOM                = salcom;
@@ -34,6 +37,8 @@
         internal const string VERIF                 = verif;
         internal const string UPUSER                = upuser;
         internal const string UPDSAL                = updsal;
+        internal const string UPLOAD                = upload;
+        internal const string IMGHELP               = imghelp;
         #endregion
 
         #region Get them
